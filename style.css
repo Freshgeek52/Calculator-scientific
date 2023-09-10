@@ -1,0 +1,150 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier Prime', monospace;
+    background: linear-gradient(20deg, rgb(155, 210, 183)10%, rgb(198, 223, 178)60%);
+}
+
+.contenair{
+    width: 30%;
+    box-shadow: 0 5px gray,inset 0 0 10px black;
+    height: 95vh;
+    display: flex;
+    color: white;
+    font-weight: 500;
+}
+
+.contenair .contenair-one{
+    width: 95%;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    height: 92vh;
+    margin-top: 6px;
+    background: linear-gradient(20deg, rgb(45,44,58)10%, rgb(58,52,52)40%);
+}
+
+.contenair .contenair-one .contenair-two{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+
+}
+
+.contenair .contenair-one .contenair-two span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenair .contenair-one .contenair-two span small{
+    font-size: 8px;
+    margin-top: 4px;
+}
+
+.contenair .contenair-one .contenair-two span button{
+    width: 80px;
+    margin-left: 2px;
+    padding: 1px 3px;
+    height: 25px;
+    margin-top: 3px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+    background-color: rgb(59, 55, 55);
+    color: white;
+}
+
+.contenair .contenair-one .contenair-two span button:hover{
+    transform: scale(0.95);
+}
+.contenair .contenair-one .contenair-three{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.contenair .contenair-one .contenair-three span{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenair .contenair-one .contenair-three span button{
+    width: 80px;
+    height: 33px;
+    margin-left: 2px;
+    margin-top: 3px;
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+.contenair .contenair-one .contenair-three span button:hover{
+    transform: scale(0.95);
+}
+
+.contenair .contenair-one .contenair-three span small{
+    font-size: 10px;
+}
+
+#contenair-one-top{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 29vh;
+    box-shadow: inset 0 0 10px gray;
+    border: 1px solid black;
+}
+
+.contenair .contenair-one #contenair-one-bottom{
+    display: flex;
+    justify-content: space-around;  
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.contenair .contenair-one #contenair-one-bottom button:hover{
+    transform: scale(0.95);
+}
+
+.contenair .contenair-one #contenair-one-bottom button{
+    width: 100px;
+    margin-left: 2px;
+    margin-top: 5px;
+    background-color: rgb(82,18,82);
+    outline: none;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: white;
+    height: 22px;
+}
+.contenair .contenair-one #contenair-one-top #contenair-one-text{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.contenair .contenair-one #contenair-one-top #contenair-one-middle{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 15vh;
+    border: 1px solid black;
+    box-shadow: inset 0 0 8px gray;
+    margin-top: 4px;
+}
+
+.contenair .contenair-one #contenair-one-top #contenair-one-middle input[type="text"]{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 13vh;
+    margin-top: 5px;
+    box-shadow: 0 0 8px black;
+    border: none;
+}
+
+@media (max-width: 830px){
+    .contenair{
+        width: 100%;
+    }
+}
+    
