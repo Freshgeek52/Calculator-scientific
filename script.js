@@ -10,7 +10,7 @@ function solve(){
     displayvalue.value = y
 }
 
-function del(){
+function remove(){
     const displayvalue = document.getElementById('result')
     displayvalue.value = ''
 }
@@ -74,48 +74,48 @@ function five(){
 
 function sin(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.sin(displayvalue.value*(Math.PI/180))
+    displayvalue.value = Math.sin(displayvalue.value*(Math.PI/180))
 }
 
 function sinh(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.sinh(displayvalue.value)
+    displayvalue.value = Math.sinh(displayvalue.value)
 }
 
 function asin(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.asin(displayvalue.value)
+    displayvalue.value = Math.asin(displayvalue.value)
 }
 
 function asinh(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.asinh(displayvalue.value)
+    displayvalue.value = Math.asinh(displayvalue.value)
 }
 
 
 function cos(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.cos(displayvalue.value*(Math.PI/180))
+    displayvalue.value = Math.cos(displayvalue.value*(Math.PI/180))
 }
 
 function cosh(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.cosh(displayvalue.value)
+    displayvalue.value = Math.cosh(displayvalue.value)
 }
 
 function acos(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.acos(displayvalue.value)
+    displayvalue.value = Math.acos(displayvalue.value)
 }
 
 function acosh(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.acosh(displayvalue.value)
+    displayvalue.value = Math.acosh(displayvalue.value)
 }
 
 function tan(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.tan(displayvalue.value*(Math.PI/180))
+    displayvalue.value = Math.tan(displayvalue.value*(Math.PI/180))
 }
 
 function tanh(){
@@ -125,30 +125,40 @@ function tanh(){
 
 function atan(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.atan(displayvalue.value)
+    displayvalue.value = Math.atan(displayvalue.value)
 }
 
 function atanh(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.atanh(displayvalue.value)
+    displayvalue.value = Math.atanh(displayvalue.value)
 }
 
 function cot(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.cot(displayvalue.value*(Math.PI/180))
+    displayvalue.value = Math.cot(displayvalue.value*(Math.PI/180))
 }
 
 function cotx(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.cotx(displayvalue.value)
+    displayvalue.value = Math.cotx(displayvalue.value)
 }
 
 function log(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.log10(displayvalue.value)
+    displayvalue.value = Math.log10(displayvalue.value)
 }
 
 function ln(){
     const displayvalue = document.getElementById('result')
-    displayvalue = Math.log(displayvalue.value)
+    displayvalue.value = Math.log(displayvalue.value)
 }
+
+function expo(){
+    const displayvalue = document.getElementById('result')
+    displayvalue.value = Math.exp(displayvalue.value)
+}
+
+function del() {
+    const displayvalue = document.getElementById('result')
+    displayvalue.value.slice(0, -1);
+  }
